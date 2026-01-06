@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="dbnsBiSaA74qFwoW2xFjZfODHug4GaY4rpafCtMj">
+
+    <meta name="author" content="RPA"/>
+    <meta name="resourse-type" content="Document"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="revisit-after" content="4 days"/>
+    <meta name="twitter:image" content="https://russianphotoawards.com/images/rpa_bg.jpg">
+    <meta name="twitter:title" content="Премия Russian Photo Awards 2026">
+    <meta name="twitter:description" content="Премия Russian Photo Awards 2026">
+    <meta name="twitter:image:alt" content="Премия Russian Photo Awards 2026">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://russianphotoawards.com" />
+    <meta property="og:site_name" content="Премия Russian Photo Awards 2026">
+    <meta property="og:title" content="Премия Russian Photo Awards 2026" />
+    <meta property="og:description" content="Cамая крупная и почетная награда в области фотографии в России, которая объединяет различные жанры фотоискусства.">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://russianphotoawards.com" />
+    <meta property="og:image" content="https://russianphotoawards.com/images/rpa_bg.jpg" />
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:alt" content="Премия Russian Photo Awards 2026 - Cамая крупная и почетная награда в области фотографии в России, которая объединяет различные жанры фотоискусства.">
+    <meta property="og:locale" content="ru_RU">
+
+    <title>Russian Photo Awards</title>
+
+    <link rel="preload" as="style" href="https://russianphotoawards.com/build/assets/app-BfLAl0Pz.css" /><link rel="preload" as="style" href="https://russianphotoawards.com/build/assets/fonts-XtXFA6Lf.css" /><link rel="modulepreload" href="https://russianphotoawards.com/build/assets/app-BNnG8_5N.js" /><link rel="stylesheet" href="https://russianphotoawards.com/build/assets/app-BfLAl0Pz.css" /><link rel="stylesheet" href="https://russianphotoawards.com/build/assets/fonts-XtXFA6Lf.css" /><script type="module" src="https://russianphotoawards.com/build/assets/app-BNnG8_5N.js"></script>
+    
+    <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?173',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1948225-5gPiS"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1948225-5gPiS" style="position:fixed; left:-999px;" alt=""/></noscript>
+</head>
+<body class="font-sans antialiased">
+<div x-data class="relative w-full">
+    <div x-cloak x-show="$store.sidebar.show" class="hidden md:block fixed inset-0 z-40 bg-slate-900/10 backdrop-blur-sm " aria-hidden="true" x-on:click="$store.sidebar.toggle()" x-transition.opacity></div>
+<nav x-cloak class="fixed left-0 z-50 flex h-dvh md:h-svh w-80 shrink-0 flex-col bg-rpa-red text-white p-9 transition-transform duration-300" :class="$store.sidebar.show ? 'translate-x-0' : '-translate-x-80'" aria-label="sidebar navigation">
+
+    <div class="w-full flex justify-end">
+        <a class="cursor-pointer" @click="$store.sidebar.toggle()">
+            <img src="https://russianphotoawards.com/images/icons/24/outline/white/x-mark.svg" class="size-6">
+        </a>
+    </div>
+
+    <div class="mt-3">
+        <h4 class="font-medium text-2xl uppercase">Меню</h4>
+    </div>
+
+    <div class="mt-6 md:mt-8 flex flex-col gap-1 md:gap-2">
+            <div>
+            <a href="https://russianphotoawards.com" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Главная
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/nominations" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Номинации
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/works" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Работы
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/jury" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Жюри
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/tarifs" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Тарифы
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/rules" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Регламент
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/news" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Новости
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/smi" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                СМИ
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/contacts" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                Контакты
+            </a>
+        </div>
+            <div>
+            <a href="https://russianphotoawards.com/faq" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                FAQ
+            </a>
+        </div>
+    
+                                <div>
+                    <a href="https://russianphotoawards.com/register" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                        Регистрация
+                    </a>
+                </div>
+                            <div>
+                    <a href="https://russianphotoawards.com/login" class="font-medium text-lg uppercase  text-red-300  hover:text-white" >
+                        Вход
+                    </a>
+                </div>
+                
+    </div>
+
+    <div class="flex-1 flex flex-col justify-end gap-5 mb-6">
+        <div class="flex gap-1">
+            <div>
+            <a href="https://vk.com/russianphotoawards" target="_blank">
+                <img src="https://russianphotoawards.com/images/icons/social/vk.svg">
+            </a>
+        </div>
+            <div>
+            <a href="https://t.me/russianphotoawards" target="_blank">
+                <img src="https://russianphotoawards.com/images/icons/social/telegram.svg">
+            </a>
+        </div>
+            <div>
+            <a href="https://www.instagram.com/russianphotoawards" target="_blank">
+                <img src="https://russianphotoawards.com/images/icons/social/instagram.svg">
+            </a>
+        </div>
+            <div>
+            <a href="https://www.youtube.com/channel/UCWOWuPU1YVPikGZL7vmj9xA" target="_blank">
+                <img src="https://russianphotoawards.com/images/icons/social/youtube.svg">
+            </a>
+        </div>
+    </div>
+        <div class="flex flex-col gap-1">
+            <a href="https://russianphotoawards.com/privacy" class="leading-none font-medium text-xs  text-red-300  hover:text-white" >
+            Политика конфиденциальности
+        </a>
+            <a href="https://russianphotoawards.com/rules" class="leading-none font-medium text-xs  text-red-300  hover:text-white" >
+            Правила участия
+        </a>
+            <a href="https://russianphotoawards.com/jury-voting-rules" class="leading-none font-medium text-xs  text-red-300  hover:text-white" >
+            Положение о жюри и голосовании на фотоконкурсе
+        </a>
+    </div>
+    </div>
+</nav>
+</div>
+    <nav class="flex w-full">
+    <div class="max-w-7xl mx-auto flex w-full my-6 md:my-14 pl-8 pr-8">
+        <div class="w-32">
+            <div class="w-[121px]">
+                <a href="https://russianphotoawards.com" class="w-fit text-2xl font-bold text-black dark:text-white">
+    <img src="https://russianphotoawards.com/images/logo-colored.jpg">
+</a>
+            </div>
+        </div>
+        <div class="flex-1">
+            <div class="flex flex-col gap-2 justify-end">
+    <div>
+        <button x-data type="button" class="ml-auto w-fit block" @click="$store.sidebar.toggle();">
+            <img src="https://russianphotoawards.com/images/icons/24/outline/bars-3.svg" class="size-6">
+        </button>
+    </div>
+    <div>
+        <a class="ml-auto w-fit block" href="https://russianphotoawards.com/login">
+        <img src="https://russianphotoawards.com/images/icons/24/outline/white/user-circle.svg" class="size-6">
+    </a>
+    </div>
+</div>
+        </div>
+    </div>
+</nav>
+<div class="w-full bg-white pl-8 pr-8">
+        <div class="max-w-5xl mx-auto w-full pb-14">
+            <div class="flex flex-col md:flex-row gap-6">
+                <div class="w-full md:w-3/12">
+                    <div class="block md:hidden w-full divide-y divide-slate-300 dark:divide-slate-700 dark:text-slate-300">
+                        <div x-data="{ isExpanded: false }">
+                            <button id="categoriesControl" type="button" class="flex w-full items-center justify-between gap-4 py-4 text-left underline-offset-2 focus-visible:underline focus-visible:outline-hidden" aria-controls="categoriesList" x-on:click="isExpanded = ! isExpanded" x-bind:class="isExpanded ? ' font-bold'  : ' font-medium'" x-bind:aria-expanded="isExpanded ? 'true' : 'false'">
+                                Номинации
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke="currentColor" class="size-5 shrink-0 transition" aria-hidden="true" x-bind:class="isExpanded  ?  'rotate-180'  :  ''">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/>
+                                </svg>
+                            </button>
+                            <div x-cloak x-show="isExpanded" id="categoriesList" role="region" aria-labelledby="categoriesControl" x-collapse>
+                                <ul class="flex-col gap-1 uppercase leading-none ">
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/female-portrait">
+                                                Женский портрет
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/male-portrait">
+                                                Мужской портрет
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/kids">
+                                                Детская фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/kids-staged-photo">
+                                                Детская постановочная фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/family">
+                                                Семейная фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/maternity">
+                                                Материнство
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/paternity">
+                                                Отцовство
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/older">
+                                                Старшее поколение
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/mystery">
+                                                Таинство
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/wedding">
+                                                Свадебная фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/seasons">
+                                                Сезоны. Зима
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/food">
+                                                Food
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/social">
+                                                Социальная фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/newborn">
+                                                Новорожденные life
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/kids-staged">
+                                                Newborn постановочная фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/emotions">
+                                                Эмоции
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/black-white">
+                                                Чёрно-белая фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red text-rpa-red" href="https://russianphotoawards.com/works/black-white-portrait">
+                                                Чёрно-белый портрет
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/lovestory">
+                                                Lovestory
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/mobile">
+                                                Мобильная фотография
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/pregnancy">
+                                                Беременность
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/first-few-minutes">
+                                                Первые минуты жизни
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/autoportrait">
+                                                Автопортрет
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/fashion">
+                                                Fashion &amp; Beauty
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/best-series">
+                                                Лучшая серия
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/reportage">
+                                                Репортаж
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/breakthrough">
+                                                Прорыв года
+                                            </a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="hidden md:flex flex-col gap-1 uppercase leading-none ">
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/female-portrait">
+                                    Женский портрет
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/male-portrait">
+                                    Мужской портрет
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/kids">
+                                    Детская фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/kids-staged-photo">
+                                    Детская постановочная фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/family">
+                                    Семейная фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/maternity">
+                                    Материнство
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/paternity">
+                                    Отцовство
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/older">
+                                    Старшее поколение
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/mystery">
+                                    Таинство
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/wedding">
+                                    Свадебная фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/seasons">
+                                    Сезоны. Зима
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/food">
+                                    Food
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/social">
+                                    Социальная фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/newborn">
+                                    Новорожденные life
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/kids-staged">
+                                    Newborn постановочная фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/emotions">
+                                    Эмоции
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/black-white">
+                                    Чёрно-белая фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red text-rpa-red" href="https://russianphotoawards.com/works/black-white-portrait">
+                                    Чёрно-белый портрет
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/lovestory">
+                                    Lovestory
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/mobile">
+                                    Мобильная фотография
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/pregnancy">
+                                    Беременность
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/first-few-minutes">
+                                    Первые минуты жизни
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/autoportrait">
+                                    Автопортрет
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/fashion">
+                                    Fashion &amp; Beauty
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/best-series">
+                                    Лучшая серия
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/reportage">
+                                    Репортаж
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="font-medium text-xs hover:text-rpa-red " href="https://russianphotoawards.com/works/breakthrough">
+                                    Прорыв года
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+                <div class="w-full md:w-9/12">
+                                            <div class="w-full mb-5 flex flex-col gap-3">
+                            <div class="w-full">
+                                <h2 class="text-sm uppercase text-black mb-1 font-medium">Чёрно-белый портрет</h2>
+                                <p class="text-black uppercase text-xs">
+                                    В номинации принимают участие черно-белые портреты
+                                </p>
+                            </div>
+                            <div class="flex items-end justify-end">
+                                                                    <a class="text-rpa-red font-normal hover:opacity-75" href="https://russianphotoawards.com/works/black-white-portrait/top">
+                                        ТОП ЗРИТЕЛЬСКОГО ГОЛОСОВАНИЯ
+                                    </a>
+                                                            </div>
+                        </div>
+                    
+                                            <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-3">
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/b621f4a0-ff39-4cab-b2b1-7f713da97e27.jpeg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/b86e7c43-42f8-4e35-aca8-7632cf01c949" >
+                                                Лиза<br>
+                                                                                                                                                        Ирина Холодова
+                                                
+                                            </a>
+                                            <div x-data="likeData('b86e7c43-42f8-4e35-aca8-7632cf01c949', 1)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/b86e7c43-42f8-4e35-aca8-7632cf01c949"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/466ea242-0dd5-4418-a2e5-ab7f59a1a66d.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/cbb15978-321d-4ffd-b291-985fe41a20a0" >
+                                                Скоро весна?<br>
+                                                                                                                                                        Могилевцева Дарья
+                                                
+                                            </a>
+                                            <div x-data="likeData('cbb15978-321d-4ffd-b291-985fe41a20a0', 1)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/cbb15978-321d-4ffd-b291-985fe41a20a0"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/4fcca6ad-d9e3-468e-b1e1-c463ddbc138e.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/2b91ead0-a7a1-4140-b4a6-731eebf11304" >
+                                                Сын<br>
+                                                                                                                                                        Александрова Вера
+                                                
+                                            </a>
+                                            <div x-data="likeData('2b91ead0-a7a1-4140-b4a6-731eebf11304', 0)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/2b91ead0-a7a1-4140-b4a6-731eebf11304"></a>
+
+                                                                            <div class="block w-5 absolute left-1.5 top-1.5">
+                                            <div x-data="{ showTooltip: false }" class="relative w-fit">
+                                                <a @click="showTooltip = !showTooltip" aria-describedby="tooltipTopUsers" class="cursor-pointer hover:opacity-75">
+                                                    <img src="https://russianphotoawards.com/images/1.svg" class="block w-5 ">
+                                                </a>
+                                                <div x-cloak x-show="showTooltip" @click.outside="showTooltip = false" id="tooltipTopUsers" class="absolute -top-9 left-1/2 -translate-x-1/2 z-10 rounded-sm bg-rpa-red text-white px-2 py-1 text-center text-xs w-max max-w-60 block whitespace-normal" role="tooltip" x-transition:enter="transition ease-out" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-out" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
+                                                    Место в рейтинге по количеству загруженных работ в текущем сезоне
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/769778dc-1cd0-446d-81a5-47c54dfbee2e.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/49b93174-1f4a-4fac-8a61-ae3475ab76ff" >
+                                                Восход<br>
+                                                                                                                                                        Косяк Наталья
+                                                
+                                            </a>
+                                            <div x-data="likeData('49b93174-1f4a-4fac-8a61-ae3475ab76ff', 0)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/49b93174-1f4a-4fac-8a61-ae3475ab76ff"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/f591cf51-71a9-46eb-bda3-2e58f9dc624a.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/6e48c899-dff0-43a3-afdb-d90b974a98c2" >
+                                                Расцветай<br>
+                                                                                                                                                        Лилия Гарипова
+                                                
+                                            </a>
+                                            <div x-data="likeData('6e48c899-dff0-43a3-afdb-d90b974a98c2', 0)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/6e48c899-dff0-43a3-afdb-d90b974a98c2"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/933b0ee4-fa35-48f7-a22e-bc9b9e102352.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/07d4a753-2810-4e2c-a0ca-0c8023d3858a" >
+                                                К прошедшему<br>
+                                                                                                    Дагаев Михаил
+                                                
+                                            </a>
+                                            <div x-data="likeData('07d4a753-2810-4e2c-a0ca-0c8023d3858a', 4)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/07d4a753-2810-4e2c-a0ca-0c8023d3858a"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/ffcc7978-f5cb-42f2-9b81-89a4d8e298cb.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/268b41ed-b92e-4903-aaaa-51383d3f822b" >
+                                                Анна<br>
+                                                                                                    Полонская Екатерина
+                                                
+                                            </a>
+                                            <div x-data="likeData('268b41ed-b92e-4903-aaaa-51383d3f822b', 0)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/268b41ed-b92e-4903-aaaa-51383d3f822b"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/75ed10dc-f95b-4897-aff7-826474b181c2.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/911669ea-93e0-4ca5-a38e-cec462a302ed" >
+                                                Муза<br>
+                                                                                                                                                        Мила Цвор
+                                                
+                                            </a>
+                                            <div x-data="likeData('911669ea-93e0-4ca5-a38e-cec462a302ed', 0)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/911669ea-93e0-4ca5-a38e-cec462a302ed"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/dc5f26cc-8e60-4a2d-946f-49509eeb767c.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/10339453-ef06-4e23-9fdb-e180bc4b7feb" >
+                                                взгляд<br>
+                                                                                                                                                        Петручик Мария
+                                                
+                                            </a>
+                                            <div x-data="likeData('10339453-ef06-4e23-9fdb-e180bc4b7feb', 2)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/10339453-ef06-4e23-9fdb-e180bc4b7feb"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/bc250dcf-53b9-4830-852f-97c23b9bb3a2.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/1ba39e66-7485-4f01-88bf-50a058d80fb3" >
+                                                в траве<br>
+                                                                                                                                                        Анна Левашова
+                                                
+                                            </a>
+                                            <div x-data="likeData('1ba39e66-7485-4f01-88bf-50a058d80fb3', 5)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/1ba39e66-7485-4f01-88bf-50a058d80fb3"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/6b074406-27ed-4973-b19a-1f00f8c9d4ba.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/4d4c2494-e1bd-4d1e-a50d-ba3de1a04772" >
+                                                оксана<br>
+                                                                                                                                                        Вероника Вербицкая
+                                                
+                                            </a>
+                                            <div x-data="likeData('4d4c2494-e1bd-4d1e-a50d-ba3de1a04772', 0)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/4d4c2494-e1bd-4d1e-a50d-ba3de1a04772"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/d68145b7-1a31-4b90-b180-245f59df0fa4.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/1cdc7e13-e3cf-48d4-b489-884f375fc565" >
+                                                варя<br>
+                                                                                                                                                        Луканов Денис
+                                                
+                                            </a>
+                                            <div x-data="likeData('1cdc7e13-e3cf-48d4-b489-884f375fc565', 1)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/1cdc7e13-e3cf-48d4-b489-884f375fc565"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/cc3324bb-4632-4e2d-8712-a0706766a1ae.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/e67842f5-0ea7-437c-9c63-4590a51a960c" >
+                                                Света<br>
+                                                                                                                                                        Шестоперова Юлия
+                                                
+                                            </a>
+                                            <div x-data="likeData('e67842f5-0ea7-437c-9c63-4590a51a960c', 2)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/e67842f5-0ea7-437c-9c63-4590a51a960c"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/c0b97e3d-3293-4a6b-9a7c-333726737073.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/74feef35-363c-4d6c-83f9-4b8723af84a3" >
+                                                #борись<br>
+                                                                                                                                                        Абрамова Людмила
+                                                
+                                            </a>
+                                            <div x-data="likeData('74feef35-363c-4d6c-83f9-4b8723af84a3', 3)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/74feef35-363c-4d6c-83f9-4b8723af84a3"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/c220a603-c283-4b2f-afd3-0bdb477b06b9.JPG">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/b6c551f9-ead1-44b1-b274-37c07450611a" >
+                                                Быть или не быть<br>
+                                                                                                                                                        София Нефедова
+                                                
+                                            </a>
+                                            <div x-data="likeData('b6c551f9-ead1-44b1-b274-37c07450611a', 0)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/b6c551f9-ead1-44b1-b274-37c07450611a"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/8f12bfd5-551c-4d19-95a1-5b19bdb56616.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/2abfe63f-5cab-49fb-9888-e3fbd8f4cd14" >
+                                                Аэлита<br>
+                                                                                                                                                        Анна Старикова
+                                                
+                                            </a>
+                                            <div x-data="likeData('2abfe63f-5cab-49fb-9888-e3fbd8f4cd14', 1)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/2abfe63f-5cab-49fb-9888-e3fbd8f4cd14"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/d7428282-e01a-41d7-8a09-1b60ff2d5d9c.jpeg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/edc80b46-52a2-4410-9cf6-45369232c4ad" >
+                                                Саша<br>
+                                                                                                                                                        Щенникова Екатерина
+                                                
+                                            </a>
+                                            <div x-data="likeData('edc80b46-52a2-4410-9cf6-45369232c4ad', 2)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/edc80b46-52a2-4410-9cf6-45369232c4ad"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/b97a7a22-a01c-4d1c-bea1-85831c18f40a.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/63addcb2-3e14-4a57-8f7e-f14434306514" >
+                                                Оммаж<br>
+                                                                                                                                                        Карачева Анна
+                                                
+                                            </a>
+                                            <div x-data="likeData('63addcb2-3e14-4a57-8f7e-f14434306514', 2)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/63addcb2-3e14-4a57-8f7e-f14434306514"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/b20dc176-7959-4529-a772-3bdca234f7af.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/61f44ec5-e4b0-4f0f-9a80-c81369e07681" >
+                                                Эмигрантка<br>
+                                                                                                                                                        Сасин Е.С.
+                                                
+                                            </a>
+                                            <div x-data="likeData('61f44ec5-e4b0-4f0f-9a80-c81369e07681', 2)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/61f44ec5-e4b0-4f0f-9a80-c81369e07681"></a>
+
+                                                                    </div>
+                                                                                            <div class="w-full relative">
+                                                                    <img src="https://russianphotoawards.com/storage/works/cropped/f5370d87-d6f2-4042-991d-7b43b2cb68a8.jpg">
+                                    <div class="h-full w-full bg-card-gradient-black flex flex-wrap content-end absolute inset-0">
+                                        <div class="flex gap-2 p-4 justify-between w-full items-center">
+                                            <a class="uppercase text-white font-medium text-xs" href="https://russianphotoawards.com/work/d25144f3-8585-4c3f-9854-8ad86e9a4d29" >
+                                                Эти глаза<br>
+                                                                                                                                                        Кольцов Максим
+                                                
+                                            </a>
+                                            <div x-data="likeData('d25144f3-8585-4c3f-9854-8ad86e9a4d29', 1)" class="flex flex-col gap-1 items-center z-30">
+                                                <a @click="like()" class="cursor-pointer hover:opacity-75"><img src="https://russianphotoawards.com/images/icons/24/outline/white/heart.svg" class="size-6"></a>
+                                                <span class="text-xs text-white font-bold" x-text="likes"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                                                                                    <a class="block h-full w-full absolute inset-0" href="https://russianphotoawards.com/work/d25144f3-8585-4c3f-9854-8ad86e9a4d29"></a>
+
+                                                                    </div>
+                                                    </div>
+                        <div class="mt-14">
+                                                        <nav role="navigation" aria-label="Навигация" class="flex items-center justify-between w-full">
+        <div class="flex justify-between flex-1 sm:hidden">
+                            <a href="https://russianphotoawards.com/works/black-white-portrait?page=1" class="relative inline-flex items-center text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-300 dark:focus:border-blue-700 dark:active:bg-gray-700 dark:active:text-gray-300">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="uppercase">Назад</span>
+                </a>
+            
+                            <a href="https://russianphotoawards.com/works/black-white-portrait?page=3" class="relative inline-flex items-center text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-300 dark:focus:border-blue-700 dark:active:bg-gray-700 dark:active:text-gray-300">
+                    <span class="uppercase">Вперёд</span>
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                    </div>
+
+        <div class="hidden sm:flex sm:items-center sm:justify-between mx-auto">
+            <div>
+                <span class="relative z-0 inline-flex rtl:flex-row-reverse">
+                    
+                                            <a href="https://russianphotoawards.com/works/black-white-portrait?page=1" rel="prev" class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-700 bg-white leading-5 hover:text-gray-400 active:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="&amp;laquo; Назад">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <a href="https://russianphotoawards.com/works/black-white-portrait?page=1" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400 dark:hover:text-gray-300 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="Перейти к 1-й странице">
+                                        1
+                                    </a>
+                                                                                                                                <span aria-current="page">
+                                        <span class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-rpa-red bg-white cursor-default leading-5 dark:bg-gray-800 dark:border-gray-600">2</span>
+                                    </span>
+                                                                                                                                <a href="https://russianphotoawards.com/works/black-white-portrait?page=3" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400 dark:hover:text-gray-300 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="Перейти к 3-й странице">
+                                        3
+                                    </a>
+                                                                                                                                <a href="https://russianphotoawards.com/works/black-white-portrait?page=4" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400 dark:hover:text-gray-300 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="Перейти к 4-й странице">
+                                        4
+                                    </a>
+                                                                                                                                <a href="https://russianphotoawards.com/works/black-white-portrait?page=5" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400 dark:hover:text-gray-300 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="Перейти к 5-й странице">
+                                        5
+                                    </a>
+                                                                                                                                <a href="https://russianphotoawards.com/works/black-white-portrait?page=6" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400 dark:hover:text-gray-300 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="Перейти к 6-й странице">
+                                        6
+                                    </a>
+                                                                                                                                <a href="https://russianphotoawards.com/works/black-white-portrait?page=7" class="relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium text-gray-700 bg-white leading-5 hover:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400 dark:hover:text-gray-300 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="Перейти к 7-й странице">
+                                        7
+                                    </a>
+                                                                                                        
+                    
+                                            <a href="https://russianphotoawards.com/works/black-white-portrait?page=3" rel="next" class="relative inline-flex items-center px-2 py-2 -ml-px text-sm font-medium text-gray-700 bg-white leading-5 hover:text-gray-400 active:text-rpa-red transition ease-in-out duration-150 dark:bg-gray-800 dark:border-gray-600 dark:active:bg-gray-700 dark:focus:border-blue-800" aria-label="Вперёд &amp;raquo;">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                                    </span>
+            </div>
+        </div>
+    </nav>
+
+                                                    </div>
+                                    </div>
+
+            </div>
+
+
+        </div>
+    </div>
+<div class="w-full bg-black pl-8 pr-8 md:text-center py-16">
+    <div class="max-w-4xl mx-auto w-full">
+        <div class="w-full flex pb-16 md:justify-center">
+            <div class="w-[121px]">
+                <a href="https://russianphotoawards.com" class="w-fit text-2xl font-bold text-black dark:text-white">
+    <img src="https://russianphotoawards.com/images/logo-white.png">
+</a>
+            </div>
+        </div>
+        <div class="flex flex-col md:justify-between md:flex-row gap-2">
+                            <a href="https://russianphotoawards.com/news" class="text-sm uppercase text-white hover:opacity-75">
+                    Новости
+                </a>
+                            <a href="https://russianphotoawards.com/rules" class="text-sm uppercase text-white hover:opacity-75">
+                    Регламент
+                </a>
+                            <a href="https://russianphotoawards.com/cabinet" class="text-sm uppercase text-white hover:opacity-75">
+                    Личный кабинет
+                </a>
+                            <a href="https://russianphotoawards.com/register" class="text-sm uppercase text-white hover:opacity-75">
+                    Принять участие
+                </a>
+                            <a href="https://russianphotoawards.com/works" class="text-sm uppercase text-white hover:opacity-75">
+                    Проголосовать
+                </a>
+                            <a href="https://russianphotoawards.com/contacts" class="text-sm uppercase text-white hover:opacity-75">
+                    Написать нам
+                </a>
+                    </div>
+        <div class="mt-16 flex flex-col md:justify-between md:flex-row justify-between text-sm text-white opacity-55">
+            <div>
+                RUSSIAN PHOTO AWARDS 2026
+            </div>
+            <div class="md:text-right">
+                ИП Гороховская Алена Эдуардовна<br>
+                ИНН: 753611483125
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Notifications -->
+<div x-data="notify()" x-on:notify.window="addNotification({
+            variant: $event.detail.variant,
+            sender: $event.detail.sender,
+            title: $event.detail.title,
+            message: $event.detail.message,
+        })">
+
+    <div x-on:mouseenter="$dispatch('pause-auto-dismiss')" x-on:mouseleave="$dispatch('resume-auto-dismiss')" class="group pointer-events-none fixed inset-x-8 top-0 z-99 flex max-w-full flex-col gap-2 bg-transparent px-6 py-6 md:bottom-0 md:left-[unset] md:right-0 md:top-[unset] md:max-w-sm">
+        <template x-for="(notification, index) in notifications" x-bind:key="notification.id">
+            <!-- root div holds all of the notifications  -->
+            <div>
+                <!-- Info Notification  -->
+                <template x-if="notification.variant === 'info'">
+                    <div x-data="{ isVisible: false, timeout: null }" x-cloak x-show="isVisible" class="pointer-events-auto relative rounded-lg border border-sky-600 bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-300" role="alert" x-on:pause-auto-dismiss.window="clearTimeout(timeout)" x-on:resume-auto-dismiss.window=" timeout = setTimeout(() => {(isVisible = false), removeNotification(notification.id) }, displayDuration)" x-init="$nextTick(() => { isVisible = true }), (timeout = setTimeout(() => { isVisible = false, removeNotification(notification.id)}, displayDuration))" x-transition:enter="transition duration-300 ease-out" x-transition:enter-end="translate-y-0" x-transition:enter-start="translate-y-8" x-transition:leave="transition duration-300 ease-in" x-transition:leave-end="-translate-x-24 opacity-0 md:translate-x-24" x-transition:leave-start="translate-x-0 opacity-100">
+                        <div class="flex w-full items-center gap-2.5 bg-sky-600/10 rounded-lg p-4 transition-all duration-300">
+
+                            <!-- Icon -->
+                            <div class="rounded-full bg-sky-600/15 p-0.5 text-sky-600" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+
+                            <!-- Title & Message -->
+                            <div class="flex flex-col gap-2">
+                                <h3 x-cloak x-show="notification.title" class="text-sm font-semibold text-sky-600" x-text="notification.title"></h3>
+                                <p x-cloak x-show="notification.message" class="text-pretty text-sm" x-text="notification.message"></p>
+                            </div>
+
+                            <!--Dismiss Button -->
+                            <button type="button" class="ml-auto" aria-label="dismiss notification" x-on:click="(isVisible = false), removeNotification(notification.id)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" class="size-5 shrink-0" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Success Notification  -->
+                <template x-if="notification.variant === 'success'">
+                    <div x-data="{ isVisible: false, timeout: null }" x-cloak x-show="isVisible" class="pointer-events-auto relative rounded-lg border border-green-600 bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-300" role="alert" x-on:pause-auto-dismiss.window="clearTimeout(timeout)" x-on:resume-auto-dismiss.window=" timeout = setTimeout(() => {(isVisible = false), removeNotification(notification.id) }, displayDuration)" x-init="$nextTick(() => { isVisible = true }), (timeout = setTimeout(() => { isVisible = false, removeNotification(notification.id)}, displayDuration))" x-transition:enter="transition duration-300 ease-out" x-transition:enter-end="translate-y-0" x-transition:enter-start="translate-y-8" x-transition:leave="transition duration-300 ease-in" x-transition:leave-end="-translate-x-24 opacity-0 md:translate-x-24" x-transition:leave-start="translate-x-0 opacity-100">
+                        <div class="flex w-full items-center gap-2.5 bg-green-600/10 rounded-lg p-4 transition-all duration-300">
+
+                            <!-- Icon -->
+                            <div class="rounded-full bg-green-600/15 p-0.5 text-green-600" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+
+                            <!-- Title & Message -->
+                            <div class="flex flex-col gap-2">
+                                <h3 x-cloak x-show="notification.title" class="text-sm font-semibold text-green-600" x-text="notification.title"></h3>
+                                <p x-cloak x-show="notification.message" class="text-pretty text-sm" x-text="notification.message"></p>
+                            </div>
+
+                            <!--Dismiss Button -->
+                            <button type="button" class="ml-auto" aria-label="dismiss notification" x-on:click="(isVisible = false), removeNotification(notification.id)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" class="size-5 shrink-0" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Warning Notification  -->
+                <template x-if="notification.variant === 'warning'">
+                    <div x-data="{ isVisible: false, timeout: null }" x-cloak x-show="isVisible" class="pointer-events-auto relative rounded-lg border border-amber-500 bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-300" role="alert" x-on:pause-auto-dismiss.window="clearTimeout(timeout)" x-on:resume-auto-dismiss.window=" timeout = setTimeout(() => {(isVisible = false), removeNotification(notification.id) }, displayDuration)" x-init="$nextTick(() => { isVisible = true }), (timeout = setTimeout(() => { isVisible = false, removeNotification(notification.id)}, displayDuration))" x-transition:enter="transition duration-300 ease-out" x-transition:enter-end="translate-y-0" x-transition:enter-start="translate-y-8" x-transition:leave="transition duration-300 ease-in" x-transition:leave-end="-translate-x-24 opacity-0 md:translate-x-24" x-transition:leave-start="translate-x-0 opacity-100">
+                        <div class="flex w-full items-center gap-2.5 bg-amber-500/10 rounded-lg p-4 transition-all duration-300">
+
+                            <!-- Icon -->
+                            <div class="rounded-full bg-amber-500/15 p-0.5 text-amber-500" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5A.75.75 0 0 1 10 5Zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+
+                            <!-- Title & Message -->
+                            <div class="flex flex-col gap-2">
+                                <h3 x-cloak x-show="notification.title" class="text-sm font-semibold text-amber-500" x-text="notification.title"></h3>
+                                <p x-cloak x-show="notification.message" class="text-pretty text-sm" x-text="notification.message"></p>
+                            </div>
+
+                            <!--Dismiss Button -->
+                            <button type="button" class="ml-auto" aria-label="dismiss notification" x-on:click="(isVisible = false), removeNotification(notification.id)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" class="size-5 shrink-0" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Danger Notification  -->
+                <template x-if="notification.variant === 'danger'">
+                    <div x-data="{ isVisible: false, timeout: null }" x-cloak x-show="isVisible" class="pointer-events-auto relative rounded-lg border border-red-600 bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-300" role="alert" x-on:pause-auto-dismiss.window="clearTimeout(timeout)" x-on:resume-auto-dismiss.window=" timeout = setTimeout(() => {(isVisible = false), removeNotification(notification.id) }, displayDuration)" x-init="$nextTick(() => { isVisible = true }), (timeout = setTimeout(() => { isVisible = false, removeNotification(notification.id)}, displayDuration))" x-transition:enter="transition duration-300 ease-out" x-transition:enter-end="translate-y-0" x-transition:enter-start="translate-y-8" x-transition:leave="transition duration-300 ease-in" x-transition:leave-end="-translate-x-24 opacity-0 md:translate-x-24" x-transition:leave-start="translate-x-0 opacity-100">
+                        <div class="flex w-full items-center gap-2.5 bg-red-600/10 rounded-lg p-4 transition-all duration-300">
+
+                            <!-- Icon -->
+                            <div class="rounded-full bg-red-600/15 p-0.5 text-red-600" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-8-5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-4.5A.75.75 0 0 1 10 5Zm0 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+
+                            <!-- Title & Message -->
+                            <div class="flex flex-col gap-2">
+                                <h3 x-cloak x-show="notification.title" class="text-sm font-semibold text-red-600" x-text="notification.title"></h3>
+                                <p x-cloak x-show="notification.message" class="text-pretty text-sm" x-text="notification.message"></p>
+                            </div>
+
+                            <!--Dismiss Button -->
+                            <button type="button" class="ml-auto" aria-label="dismiss notification" x-on:click="(isVisible = false), removeNotification(notification.id)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" class="size-5 shrink-0" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Message Notification  -->
+                <template x-if="notification.variant === 'message'">
+                    <div x-data="{ isVisible: false, timeout: null }" x-cloak x-show="isVisible" class="pointer-events-auto relative rounded-lg border border-slate-300 bg-white text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300" role="alert" x-on:pause-auto-dismiss.window="clearTimeout(timeout)" x-on:resume-auto-dismiss.window="timeout = setTimeout(() => { isVisible = false, removeNotification(notification.id) }, displayDuration)" x-init="$nextTick(() => { isVisible = true }), (timeout = setTimeout(() => { isVisible = false, removeNotification(notification.id) }, displayDuration))" x-transition:enter="transition duration-300 ease-out" x-transition:enter-end="translate-y-0" x-transition:enter-start="translate-y-8" x-transition:leave="transition duration-300 ease-in" x-transition:leave-end="-translate-x-24 opacity-0 md:translate-x-24" x-transition:leave-start="translate-x-0 opacity-100">
+                        <div class="flex w-full rounded-lg items-center gap-2.5 bg-slate-100 p-4 transition-all duration-300 dark:bg-slate-800">
+                            <div class="flex w-full items-center gap-2.5">
+
+                                <!-- Avatar -->
+                                <img x-cloak x-show="notification.sender.avatar" class="mr-2 size-12 rounded-full" alt="avatar" aria-hidden="true" x-bind:src="notification.sender.avatar"/>
+                                <div class="flex flex-col items-start gap-2">
+                                    <!-- Title & Message -->
+                                    <h3 x-cloak x-show="notification.sender.name" class="text-sm font-semibold text-black dark:text-white" x-text="notification.sender.name"></h3>
+                                    <p x-cloak x-show="notification.message" class="text-pretty text-sm" x-text="notification.message"></p>
+
+                                    <!-- Action Buttons -->
+                                    <div class="flex items-center gap-4">
+                                        <button type="button" class="whitespace-nowrap bg-transparent text-center text-sm font-bold tracking-wide text-blue-700 transition hover:opacity-75 active:opacity-100 dark:text-blue-600">Reply</button>
+                                        <button type="button" class="whitespace-nowrap bg-transparent text-center text-sm font-bold tracking-wide text-slate-700 transition hover:opacity-75 active:opacity-100 dark:text-slate-300" x-on:click=" (isVisible = false), setTimeout(() => { removeNotification(notification.id) }, 400)">Dismiss</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Dismiss Button -->
+                            <button type="button" class="ml-auto" aria-label="dismiss notification" x-on:click="(isVisible = false), removeNotification(notification.id)">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" class="size-5 shrink-0" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </template>
+
+            </div>
+        </template>
+    </div>
+</div>
+<script src="//code.jivosite.com/widget/dOvE9aX36W" async></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(72212848, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/72212848" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<div x-data="cookieBanner()"
+     x-show="bannerVisible"
+     x-transition:enter="transition ease-out duration-500"
+     x-transition:enter-start="translate-y-full"
+     x-transition:enter-end="translate-y-0"
+     x-transition:leave="transition ease-in duration-300"
+     x-transition:leave-start="translate-y-0"
+     x-transition:leave-end="translate-y-full"
+     class="fixed bottom-0 right-0 w-full h-auto duration-300 ease-out sm:px-5 sm:pb-5 sm:w-[26rem] lg:w-full"
+     x-cloak>
+    <div class="flex flex-col items-center justify-between w-full h-full max-w-4xl p-2 mx-auto bg-white border-t shadow-lg lg:p-4 lg:flex-row sm:border-0 sm:rounded-xl gap-2">
+        <div class="flex flex-col items-start h-full text-xs lg:items-center lg:flex-row lg:pb-0 lg:pr-6 lg:space-x-5 text-neutral-600">
+            <div class="lg:pt-0">
+                <p>Мы используем файлы cookie для улучшения работы сайта и удобства пользователей.
+                    <span class="hidden lg:inline">Продолжая пользоваться сайтом, вы соглашаетесь с использованием файлов cookie.</span>
+                </p>
+            </div>
+        </div>
+        <div class="flex items-end justify-end w-full pl-3 space-x-3 lg:flex-shrink-0 lg:w-auto">
+            <button @click="declineCookies"
+                    class="cursor-pointer inline-flex items-center justify-center flex-shrink-0 w-1/2 px-4 py-2 text-sm font-medium tracking-wide transition-colors duration-200 bg-white border-2 rounded-md lg:w-auto text-neutral-600 hover:text-neutral-700 border-neutral-950 focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none">
+                Отклонить
+            </button>
+            <button @click="acceptCookies"
+                    class="cursor-pointer inline-flex items-center justify-center flex-shrink-0 w-1/2 px-4 py-2 text-sm font-medium tracking-wide text-white transition-colors duration-200 border-2 rounded-md lg:w-auto bg-neutral-950 border-neutral-950 hover:bg-neutral-900 focus:ring-2 focus:ring-offset-2 focus:ring-neutral-900 focus:shadow-outline focus:outline-none">
+                Принять
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
